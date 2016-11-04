@@ -5,8 +5,8 @@ def main():
 	t = 6
 	end = l[-1]
 	for a , b in enumerate(l):
-		if b + end == t:
 
+		if b + end == t:
 			print a, len(l)-1
 	
 
