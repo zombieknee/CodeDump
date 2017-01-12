@@ -4,7 +4,7 @@ def format_time(mil_time):
 
 def normalize(input_time):
 	days = { 0:'Sun', 1:'Mon', 2:'Tue', 3:'Wed', 4:'Thu', 5:'Fri', 6:'Sat'}
-	str_time = format_time(input_time):
+	str_time = format_time(input_time)
 	d = str_time[0:4]
 	h = str_time[11:13]
 	m = str_time[14:16]
@@ -28,5 +28,5 @@ def normalize(input_time):
 		tmp = int(s)
 		input_time -= tmp*1
 		str_time = format_time(input_time)
-
+		
 	return input_time
