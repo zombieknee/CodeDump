@@ -1,0 +1,31 @@
+TODO Game of LIFE
+=================
+- create game canvas +
+- create cell give properties +
+	- size, color +
+	- movement(deprecated)
+	- death +
+	- birth +
+-prototype out movement on keypress (deprecated)
+	- make sure background goes back to original after frame movement
+- spec out game logic +
+	- make sure cells follow rules +
+	- cells do not move off grid +
+
+- prototype out adding and removing cells on mouse clicks (L,R) -
+- spec out buttons on html to preset certain states +
+
+** There is a small test.html file that actually runs the game **
+
+This kata was based off of Conway's Game of Life. The rules are pretty simple and were
+fairly easy to implement. It's been some time since I have worked with html5 and canvas
+elements, but I think everything came out nicely.
+
+My main issues were using the JasmineJS testing frame work. I have never heard of it
+until this particular kata/interview combination. The framework seems relatively simple,
+returning 'true' or 'false' on test cases. Some of the organizational syntax gave me some
+trouble but I think I have managed pretty well. Some of the 'specs' as the tests are called
+are some what rudimentary in my opinion, but I may be wrong as I have not worked in an
+environment where TDD was formally enforced.
+
+Over all I really enjoyed this kata and look forward to hearing some critiques and opinions!
